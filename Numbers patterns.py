@@ -63,3 +63,22 @@ for i in range(n):
       3 3 3 3 3 
         2 2 2 
           1 
+
+# hill pattern
+n=5
+p=5
+for i in range(n):
+    for j in range(i,n):
+        print(" ",end=" ")
+    for j in range(i+1):
+        print(p,end=" ")
+    for j in range(i):
+        print(p,end=" ")
+    p-=1
+    print()
+#O/P
+          5 
+        4 4 4 
+      3 3 3 3 3 
+    2 2 2 2 2 2 2 
+  1 1 1 1 1 1 1 1 1 
