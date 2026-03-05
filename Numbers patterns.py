@@ -6,7 +6,13 @@ for i in range(n):
         print(p,end=" ")
     p+=1
     print()
-    
+ #O/P
+1 
+2 2 
+3 3 3 
+4 4 4 4 
+5 5 5 5 5 
+
 #decreasing nums
 n=5
 p=5
@@ -15,7 +21,12 @@ for i in range(n):
         print(p,end=" ")
     p-=1
     print()
-
+#O/P
+5 5 5 5 5 
+4 4 4 4 
+3 3 3 
+2 2 
+1 
 # right side triangle of nums
 n=5
 p=1
