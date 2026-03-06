@@ -33,3 +33,19 @@ for i in range(n):
 * * * * * 
     *     
     *    
+# decreasing triangle 
+n=5
+for i in range(n):
+    for j in range(i,n):
+        if i==0 or j==0 or i==n-1 or j==n-1 or j==i:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
+
+#O/P 
+* * * * * 
+*     * 
+*   * 
+* * 
+* 
