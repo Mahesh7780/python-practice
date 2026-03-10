@@ -1,3 +1,11 @@
+
+#Find length of string
+s="hello"
+c=0
+for i in s:
+    c+=1
+print(c)
+
 #Count even and odd digits
 n=12345
 odd=0
