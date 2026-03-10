@@ -1,3 +1,18 @@
+#Check Anagram
+s1 = input("Enter first string: ")
+s2 = input("Enter second string: ")
+if sorted(s1) == sorted(s2):
+    print("Anagram")
+else:
+    print("Not anagram")
+    
+#Copy One String to Another
+s1 = input("Enter a string: ")
+s2 = ""
+for i in s1:
+    s2 += i
+print("Copied string:", s2)
+
 #Find Frequency of a Character
 s = input()
 ch = input()
