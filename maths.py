@@ -1,3 +1,12 @@
+#Count vowels
+s="hello"
+a="aeiou"
+c=0
+for i in s:
+    if i in a:
+        c+=1
+print(c)
+
 #Check palindrome string
 s="hello"
 t=s
