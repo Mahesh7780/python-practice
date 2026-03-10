@@ -1,3 +1,31 @@
+
+#Power of a number (x^y)
+x=2
+y=3
+print(x**y)
+
+#Smallest digit in a number
+n=1023456789
+c=1
+while n>0:
+    d=n%10
+    if c>d:
+        c=d
+    n=n//10
+print(c)
+
+
+#Largest digit in a number
+n=12345678
+c=0
+while n>0:
+    d=n%10
+    if d>c:
+        c=d
+    n=n//10
+print(c)
+
+
 #Product of digits
 n=123
 c=1
