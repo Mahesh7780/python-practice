@@ -1,3 +1,9 @@
+#Find length of string
+s="hello"
+c=""
+for i in s:
+    c=i+c
+print(c)
 
 #Find length of string
 s="hello"
