@@ -1,3 +1,12 @@
+#Find Frequency of a Character
+s = input()
+ch = input()
+count = 0
+for i in s:
+    if i == ch:
+        count += 1
+print(count)
+
 #Remove Spaces from String
 s = input()
 r= ""
