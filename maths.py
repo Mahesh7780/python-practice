@@ -1,3 +1,11 @@
+#Count digits in string
+s="hellocs097ebcb5k8v0jbjxs"
+c=0
+for i in s:
+    if i>="0" and i<="9":
+        c+=1
+print(c)
+
 #Count words
 s="hello cs ebcbkv jbjxs"
 c=0
