@@ -1,3 +1,13 @@
+#Check palindrome string
+s="hello"
+t=s
+c=""
+for i in s:
+    c=i+c
+if t==c:
+    print("palindrome")
+else:print("not palindrome")
+
 #Find length of string
 s="hello"
 c=""
