@@ -1,3 +1,17 @@
+#Count even and odd digits
+n=12345
+odd=0
+even=0
+while n!=0:
+    d=n%10
+    if n%2==0:
+        even+=1
+    else:
+        odd+=1
+    n=n//10
+print(odd)
+print(even)
+
 #Swap two numbers (without third variable)
 a=20
 b=30
