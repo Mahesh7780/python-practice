@@ -1,3 +1,11 @@
+#Remove Spaces from String
+s = input()
+r= ""
+for i in s:
+    if i != " ":
+        r += i
+print (r)
+
 #Count digits in string
 s="hellocs097ebcb5k8v0jbjxs"
 c=0
