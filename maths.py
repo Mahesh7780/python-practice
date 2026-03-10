@@ -1,3 +1,11 @@
+#Product of digits
+n=123
+c=1
+while n>0:
+    d=n%10
+    c=c*d
+    n=n//10
+print(c)
 
 #Sum of digits
 n=map(int,input().split())
