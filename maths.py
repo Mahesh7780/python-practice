@@ -1,3 +1,11 @@
+#Count words
+s="hello cs ebcbkv jbjxs"
+c=0
+for i in s:
+    if i ==" ":
+        c+=1
+print(c)
+
 #Count consonants
 s="hello"
 a="aeiou"
