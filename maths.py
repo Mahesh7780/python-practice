@@ -1,3 +1,11 @@
+#Swap two numbers (without third variable)
+a=20
+b=30
+a=a+b
+b=a-b
+a=a-b
+print(a,b)
+
 #GCD / HCF of two numbers
 a=12
 b=24
