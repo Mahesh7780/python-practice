@@ -1,3 +1,11 @@
+#GCD / HCF of two numbers
+a=12
+b=24
+while b!=0:
+    tep=b
+    b=a%b
+    a=tep
+print(a)
 
 #Power of a number (x^y)
 x=2
