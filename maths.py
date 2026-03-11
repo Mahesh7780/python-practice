@@ -74,7 +74,7 @@ if t==c:
     print("palindrome")
 else:print("not palindrome")
 
-#Find length of string
+#reverse string
 s="hello"
 c=""
 for i in s:
