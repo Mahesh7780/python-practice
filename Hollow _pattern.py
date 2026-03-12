@@ -49,6 +49,7 @@ for i in range(n):
 *   * 
 * * 
 * 
+    
 # increasing triangle 
 n=5
 for i in range(n):
