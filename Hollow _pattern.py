@@ -10,6 +10,7 @@ for i in range(n):
     print()
     
 #    O/P
+
 * * * * * 
 *       * 
 *   *   * 
