@@ -27,7 +27,6 @@ for i in range(n):
 3 3 3 
 2 2 
 1 
-
 # right side triangle of nums
 n=5
 p=1
