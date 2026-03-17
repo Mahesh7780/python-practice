@@ -1,3 +1,11 @@
+# Find minimum element
+s=[10,2,3,4,50]
+m=s[-1]
+for i in s:
+    if i<m:
+        m=i
+print(m)
+
 # Find maximum element
 s=[10,2,3,4,50]
 m=s[0]
