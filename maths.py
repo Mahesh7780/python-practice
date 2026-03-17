@@ -1,3 +1,9 @@
+# Find length of list
+s=[1,2,3,4,5]
+l=0
+for i in s:
+    l+=1
+print(l)
 #Check Anagram
 s1 = input("Enter first string: ")
 s2 = input("Enter second string: ")
