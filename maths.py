@@ -4,6 +4,9 @@ l=0
 for i in s:
     l+=1
 print(l)
+#or
+print(len(s))
+
 #Check Anagram
 s1 = input("Enter first string: ")
 s2 = input("Enter second string: ")
