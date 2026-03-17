@@ -1,4 +1,4 @@
-# Sum of array elements
+# Sum of array elements  49
 s=[10,2,3,4,50]
 m=0
 for i in s:
