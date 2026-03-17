@@ -1,3 +1,11 @@
+# Find maximum element
+s=[10,2,3,4,50]
+m=s[0]
+for i in s:
+    if i>m:
+        m=i
+print(m)
+
 # Find length of list
 s=[1,2,3,4,5]
 l=0
