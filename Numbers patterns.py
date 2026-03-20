@@ -12,6 +12,7 @@ for i in range(n):
 3 3 3 
 4 4 4 4 
 5 5 5 5 5 
+
 #decreasing nums
 n=5
 p=5
