@@ -1,4 +1,3 @@
-
 # Sum of array elements  49
 s=[10,2,3,4,50]
 m=0
