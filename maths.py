@@ -4,7 +4,6 @@ m=0
 for i in s:
     m=m+i
 print(m)
-
 # Find minimum element
 s=[10,2,3,4,50]
 m=s[-1]
