@@ -8,7 +8,6 @@ for i in range(n):
     print()
     
  #O/P
-
 1 
 2 2 
 3 3 3 
