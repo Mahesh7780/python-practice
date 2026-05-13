@@ -1,4 +1,28 @@
-#  Neon Number   49
+# Duck Number  49
+num = 0123
+temp = num
+duck = False
+while temp > 0:
+    digit = temp % 10
+
+    if digit == 0:
+        duck = True
+        break
+    temp //= 10
+if duck:
+    print("Duck Number")
+else:
+    print("Not a Duck Number")
+    
+    # or
+    
+num = "0123"
+if '0' in num and num[0] != '0':
+    print("Duck Number")
+else:
+    print("Not a Duck Number")
+
+#  Neon Number  
 n=9
 t=n**2
 m=0
