@@ -1,4 +1,16 @@
-# Duck Number  49
+# Harshad Number 49
+n=int(input())
+m=0
+t=n
+while n>0:
+    f=n%10
+    m+=f
+    n=n//10
+if t%m==0:
+    print("Harshad Number")
+else:print("Not Harshad Number")
+
+# Duck Number 
 num = 0123
 temp = num
 duck = False
