@@ -6,7 +6,7 @@ while n>0:
     f=n%10
     m+=f
     n=n//10
-if t%m==0:
+if  m != 0 and t%m==0:
     print("Harshad Number")
 else:print("Not Harshad Number")
 
