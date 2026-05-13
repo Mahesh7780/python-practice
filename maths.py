@@ -237,8 +237,8 @@ y=3
 print(x**y)
 
 #Smallest digit in a number
-n=1023456789
-c=1
+n=234956
+c=n%10
 while n>0:
     d=n%10
     if c>d:
