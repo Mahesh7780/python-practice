@@ -1,4 +1,16 @@
-# Harshad Number 49
+# Swap First & Last Digit  49
+n=1234
+t=n
+c=0
+l=n%10
+while n>=10:
+    n//=10
+    c+=1
+m=(t%(10**c))//10
+r=(l*(10**c))+(m*10)+n
+print(r)
+
+# Harshad Number 
 n=int(input())
 m=0
 t=n
