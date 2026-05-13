@@ -1,4 +1,15 @@
-# Perfect Number    49
+
+#  Automorphic Number  49
+n=25
+t=n**2
+l=len(str(n))
+s=t%(10**l)
+if n==s:
+    print("yes")
+else:print("no")
+print(l)
+
+# Perfect Number    
 n=28
 s=0
 for i in range(1,n):
