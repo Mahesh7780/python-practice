@@ -1,4 +1,18 @@
-#Decimal to Binary 49
+#LCM of Two Numbers 49
+a=4
+b=6
+c=0
+if a>b:
+    l=a
+else:
+    l=b
+for i in range(l,a*b+1):
+    if i%a==0 and i%b==0:
+        c=i
+        break
+print(c)
+
+#Decimal to Binary 
 n=10
 b=0
 p=1
