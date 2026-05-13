@@ -1,4 +1,4 @@
-# Perfect Number  
+# Perfect Number    49
 n=28
 s=0
 for i in range(1,n):
