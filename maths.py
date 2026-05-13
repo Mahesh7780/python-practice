@@ -1,5 +1,16 @@
+#  Neon Number   49
+n=9
+t=n**2
+m=0
+while t>0:
+    c=t%10
+    m+=c
+    t=t//10
+if n==m:
+    print("yes")
+else:print("no")
 
-#  Automorphic Number  49
+#  Automorphic Number 
 n=25
 t=n**2
 l=len(str(n))
