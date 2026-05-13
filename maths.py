@@ -1,4 +1,26 @@
-#Fibonacci Check 49
+#Decimal to Binary 49
+n=10
+b=0
+p=1
+while n>0:
+    r=n%2
+    b=b+(r*p)
+    p=p*10
+    n//=2
+print(b)
+
+#Binary to Decimal  
+n=1010
+v=0
+p=0
+while n>0:
+    r=n%10
+    v=v+(r*(2**p))
+    p+=1
+    n//=10
+print(v)
+
+#Fibonacci Check
 n=13
 a=0
 b=1
