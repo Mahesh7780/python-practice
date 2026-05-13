@@ -1,4 +1,14 @@
-# Sum of array elements  49
+# Perfect Number  
+n=28
+s=0
+for i in range(1,n):
+    if n%i==0:
+        s+=i
+if n==s:
+    print("Perfect Number")
+else:print("Not Perfect Number")
+
+# Sum of array elements 
 s=[10,2,3,4,50]
 m=0
 for i in s:
