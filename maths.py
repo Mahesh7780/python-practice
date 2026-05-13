@@ -1,4 +1,18 @@
-# Swap First & Last Digit  49
+#Fibonacci Check 49
+n=13
+a=0
+b=1
+for i in range(n):
+
+    c=a+b
+    a=b
+    b=c
+    if c==n:
+        print("Fibonacci")
+        break
+else:
+    print("not Fibonacci")
+# Swap First & Last Digit  
 n=1234
 t=n
 c=0
