@@ -1,5 +1,22 @@
-
-# Buzz Number  49
+# Happy Number 49
+n = 19
+while True:
+    c = 0
+    while n > 0:
+        j = n % 10
+        c = c + j**2
+        n = n // 10
+    if c > 9:
+        n = c
+    else:
+        if c == 1 or c == 7:
+            print("happy")
+            break
+        else:
+            print("not happy")
+            break
+             
+# Buzz Number 
 n=15
 if n%7==0 or n%10==7:
      print("Buzz")
