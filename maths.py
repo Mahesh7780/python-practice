@@ -1,6 +1,18 @@
 # 49 from gpt 
 
-
+#Magic Number
+n=23
+while n > 9:
+    m = 0
+    while n > 0:
+        c = n % 10
+        m += c
+        n = n // 10
+    n = m
+if n == 1:
+    print("Magic Number")
+else:
+    print("Not Magic Number")
 
 # Power of Number
 n=2
