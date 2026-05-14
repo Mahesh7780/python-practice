@@ -1,4 +1,22 @@
 # Happy Number 49
+n=20
+c=0
+
+while n!=1 and n!=4:
+    j=n%10
+    c=c+j**2
+    n=n//10
+    
+    if n==0:
+        n=c
+        c=0
+
+if n==1:
+    print("happy")
+else:
+    print("not happy")
+
+#or
 n = 19
 while True:
     c = 0
