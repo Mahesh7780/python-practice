@@ -1,4 +1,14 @@
-# Happy Number 49
+#Sunny Number   49
+n=8
+n=n+1
+
+r=int(n**0.5)
+if r*r==n:
+    print("sunny")
+else:
+    print("not sunny")
+
+# Happy Number
 n=20
 c=0
 
