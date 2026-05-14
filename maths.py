@@ -1,4 +1,13 @@
-#Factorial  49
+# 49 from gpt 
+
+
+
+# Power of Number
+n=2
+e=3
+print(n**e)
+
+#Factorial 
 n=5
 c=1
 for i in range(1,n+1):
