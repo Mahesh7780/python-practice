@@ -1,3 +1,11 @@
+
+# Buzz Number  49
+n=15
+if n%7==0 or n%10==7:
+     print("Buzz")
+else:
+    print("not Buzz")
+
 #Count Factors
 n=12
 m=0
@@ -6,7 +14,7 @@ for i in range(1,n+1):
         m+=1
 print(m)
 
-# Sum of Factors  49
+# Sum of Factors 
 n=12
 m=0
 for i in range(1,n+1):
