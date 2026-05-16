@@ -1,3 +1,21 @@
+# Double Number Pyramid
+n=5
+for i in range(n):
+    for j in range(i,n):
+        print(" ",end=" ")
+    for j in range(i+1):
+        print(i+1,end=" ")
+    for j in range(i):
+        print(i+1,end=" ")
+        
+    print()
+    #O/p
+          1 
+        2 2 2 
+      3 3 3 3 3 
+    4 4 4 4 4 4 4 
+  5 5 5 5 5 5 5 5 5 
+
 #  number triangle pattern
 
 n = 5
