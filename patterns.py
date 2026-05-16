@@ -1,3 +1,23 @@
+#Alphabet Palindrome Pyramid
+n=5
+for i in range(n):
+    a=65
+    for j in range(i,n):
+        print(" ",end=" ")
+    for j in range(i):
+        print(chr(a),end=" ")
+        a+=1
+    for j in range(i+1):
+        print(chr(a),end=" ")
+        a-=1
+    print()
+    
+    #O/p
+          A 
+        A B A 
+      A B C B A 
+    A B C D C B A 
+  A B C D E D C B A
 # midle of the diamond
 n=int(input())
 for i in range(n):
