@@ -1,3 +1,20 @@
+#  number triangle pattern
+
+n = 5
+for i in range(1, n + 1):
+    num = i
+    for j in range(i):
+        print(num, end=" ")
+        num += (n - 1) - j
+    print()
+    
+  #O/p
+  
+1 
+2 6 
+3 7 10 
+4 8 11 13 
+5 9 12 14 15 
 
 # Pascal’s Triangle
 n=5
